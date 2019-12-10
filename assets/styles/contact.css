@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. Fonts
+2. Body and some general stuff
+3. Header
+4. Menu
+5. Home
+6. Search Bar
+7. Contact
+8. Newsletter
+9. Footer
+
+
+******************************/
+
+/***********
+
+/*********************************
+7. Contact
+*********************************/
+
+.contact
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 104px;
+	padding-bottom: 100px;
+}
+.contact_content
+{
+
+}
+.contact_text
+{
+	margin-top: 15px;
+}
+.contact_info
+{
+	margin-top: 58px;
+}
+.contact_info ul li
+{
+	font-size: 16px;
+	font-weight: 500;
+	color: #333333;
+}
+.contact_info ul li:not(:last-child)
+{
+	margin-bottom: 16px;
+}
+.contact_form_container
+{
+
+}
+.contact_form
+{
+
+}
+.contact_form > div
+{
+	width: calc((100% - 30px) / 2);
+	float: left;
+}
+.contact_form > div:first-child
+{
+	margin-right: 30px;
+}
+.contact_input
+{
+	width: 100%;
+	height: 53px;
+	margin-bottom: 18px;
+	background: #f5f2fa;
+	border: none;
+	outline: none;
+	padding-left: 25px;
+	border-bottom: solid 3px #d6baa0;
+}
+.contact_textarea
+{
+	height: 263px;
+	padding-top: 18px;
+	border-bottom: solid 4px #d6baa0;
+}
+.contact_input::-webkit-input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #949494 !important;
+}
+.contact_input:-moz-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #949494 !important;
+}
+.contact_input::-moz-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #949494 !important;
+} 
+.contact_input:-ms-input-placeholder
+{ 
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #949494 !important;
+}
+.contact_input::input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #949494 !important;
+}
+.contact_button
+{
+	width: 181px;
+	height: 50px;
+	background: #5a2360;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	margin-top: 3px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.contact_button span
+{
+	display: inline-block;
+	position: relative;
+	font-size: 16px;
+	font-weight: 500;
+	color: #FFFFFF;
+	line-height: 50px;
+}
+.contact_button span::after
+{
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0px;
+	width: 100%;
+	height: 3px;
+	background: #d6baa0;
+	content: '';
+}
+.contact_button:hover
+{
+	background: #d6baa0;
+}
+.contact_map
+{
+	width: 100%;
+	height: 752px;
+	z-index: 1;
+}
+.map
+{
+	width: 100%;
+	height: 100%;
+}
+.google_map
+{
+	width: 100%;
+	height: 100%;
+}
+.map_container
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#map
+{
+	width: 100%;
+	height: calc(100% + 30px);
+}
+
